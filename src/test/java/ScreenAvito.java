@@ -23,6 +23,7 @@ public class ScreenAvito {
     public void tearDown() {
         driver.quit();
     }
+
     @Test
     public void Screen_1_Test() throws Exception {
         driver.navigate().to("https://www.avito.ru/avito-care/eco-impact");
